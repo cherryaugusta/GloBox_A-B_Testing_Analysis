@@ -131,10 +131,10 @@ Considering the inconclusive evidence, the recommendation is not to launch the f
 In conclusion, while the promotional banner has demonstrated a significant positive impact on conversion rates, its effect on average spending is negligible. Therefore, while the banner could be beneficial for improving user engagement, further strategies are needed to enhance its impact on user spending before a broader implementation is recommended.
 
 ## APPENDIX
-### SQL queries link
+### SQL Queries Link
 The first step of the analysis was writing queries to extract data to use in the next statistical analysis in Python. The SQL queries are available in the following [link](https://github.com/cherryaugusta/GloBox_A-B_Testing_Analysis/blob/main/globox_project.sql)
 
-### Python codes
+### Python Codes
 In the following step, I used Python to perform the A/B test statistics. The Python codes is available in the following [link](https://github.com/cherryaugusta/GloBox_A-B_Testing_Analysis/blob/main/globox_statistical_analysis.ipynb)
 
 ### Tableau Links
