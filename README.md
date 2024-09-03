@@ -1,5 +1,7 @@
 # GLOBOX FOOD AND DRINK BANNER EXPERIMENT: AN A/B TESTING ANALYSIS
 
+written by ****Cherry Augusta****
+
 ## SUMMARY
 
 GloBox, a hypothetical, renowned purveyor of exclusive fashion and luxury decor products, recently conducted a rigorous A/B test on its mobile website to evaluate the impact of a food and drink banner. The results from the Treatment Group, which was exposed to the banner, showed a statistically significant increase in conversion rates. However, there was no significant difference in average spending between the Treatment and Control Groups. This analysis also provided insights into device, gender, and region-specific behaviors, with some indications of potential novelty effects. The results suggest that while the banner effectively increased user conversions, it did not influence the amount users spent. Thus, this statistical analysis prompts a cautious approach, leading to the recommendation not to launch the banner due to inconclusive evidence.
@@ -26,13 +28,16 @@ With the data successfully collected, a series of hypothesis tests were conducte
 
 In the quest to evaluate the impact of the promotional banner on user behavior, this analysis provides a detailed examination of conversion rates and average spending. The results reveal significant insights that will guide GloBox’s strategic decisions. Below are the key findings and recommendations:
 
- Test Groups Overview
-Test Groups	Conversion Rate	Average Amount Spent	Sample Size
-Control (A)	4.16%           	$3.37	24,402
-Treatment (B)	4.94%	$3.38	24,680
+ **Test Groups Overview**
+| Test Groups  | Conversion Rate | Average Amount Spent | Sample Size |
+|--------------|-----------------|-----------------------|-------------|
+| Control (A)  | 4.16%           | $3.37                 | 24,402      |
+| Treatment (B)| 4.94%           | $3.38                 | 24,680      |
 
 ### Conversion Rates Analysis
 Upon conducting a comprehensive analysis of user conversion rates in the A/B test, several key findings emerge. The overall user conversion rate currently stands at 4.28%, with a closer examination revealing disparities: 4.16% for the control group and 4.94% for the treatment group, and 0.78 percentage points (0.0078) of difference.
+
+![](images/conversion_rate_and_avg_spent.png)
  
 The analysis reveals a statistically significant increase in conversion rates for the Treatment Group compared to the Control Group. The Z-score of 4.1692 significantly exceeds the critical value of 1.9600, and the p-value of 0.0000 confirms that the observed difference is highly significant. The 95% confidence interval for the difference in conversion rates is (0.0042, 0.0115), which excludes zero, further validating the significance of the result.
 
@@ -50,13 +55,16 @@ Insightful Findings:
 The impact of the food and drink banner on iOS users is truly noteworthy. The Treatment Group experienced a remarkable 6.87% uplift in conversion rate upon exposure to the banner. In contrast, the Control Group's iOS users observed a 6.18% increase in conversion rate following banner exposure. Meanwhile, For iOS users within the Treatment Group, there was a slight reduction in the average amount spent, approximately £4.90 less. This figure is notably lower than the average amount spent by iOS users in the Control Group, which stands at £5.05. Thus, the banner led to a significant uplift in conversion rates among iOS users but resulted in a decrease in average spending.
 
 For Android users, the banner improved both conversion rates and average spending. This analysis observed that both average spending and conversion rates were generally lower than their iOS counterparts. However, the Treatment Group still demonstrated a significant 3.77% increase in conversion rate among Android users upon banner exposure. In comparison, the Control Group's Android users witnessed a 2.94% boost in conversion rate following the banner exposure.
+
+![](images/device_insights.png)
  
 The banner also exerted a positive influence on the average amount spent by Android users. The Treatment Group displayed an increase of £2.46 in the average amount spent among Android users exposed to the banner, which is a notable improvement compared to the Control Group's average of £2.31.
 
 ### Gender-Specific Analysis
 Insights Unveiled:
 Upon dissecting the data within both the Control and Treatment Groups, a consistent trend emerges—males consistently exhibit lower conversion rates and average spending across all genders. However, the Treatment Group's male users experienced a remarkable 4.01% increase in conversion rate, a significant contrast to the Control Group's male users, who only realized a 2.77% increase in conversion rate. Thus, males in the Treatment Group experienced a substantial improvement in conversion rates. Females, on the other hand, already had a relatively higher conversion rate in the Control Group, standing at 5.47%. The Treatment Group's impact on female users was less pronounced, resulting in a modest increase to 5.76%. Thus, females showed a smaller improvement in conversion rates with the banner.
- 
+
+ ![](images/gender_insights.png)
 Examining spending habits, males in the Control Group spent an average of £2.25, a figure lower than their counterparts in the Treatment Group, who averaged £2.59 in spending. Conversely, females in the Control Group spent an average of £4.45, which was notably higher than the average amount spent by females in the Treatment Group, standing at £4.12.
 
 ### Country and Region-Specific Analysis
@@ -66,8 +74,10 @@ Shifting the focus of this analysis to Latin America, an analogous trend becomes
 
 Reverting to Europe, it is noteworthy that the Treatment Group has displayed a modest uptick in the average amount spent. This rise, from £3.39 in the Control Group to £2.69 in the Treatment Group, implies a positive impact on spending in this region. This phenomenon could potentially signify that the changes have not only improved the conversion rate but have also incentivized customers to invest more in the platform.
  
- 
- 
+![](images/globally_A.png)
+![](images/globally_B.png)
+![](images/complete_country_insights.png)
+
 Let us now delve into the specific regional data. In the realm of North America, the data reveals that Canada, within the Treatment Group, boasts a conversion rate of 6.48%, exceeding its Control Group counterpart's 5.06%. Similarly, the United States, within the Treatment Group, exhibits a conversion rate of 6.10%, surpassing its Control Group counterpart's 5.39%. With regard to the average expenditure, the data indicates that in the Treatment Group, Canada records an average spend of £4.20, surpassing the Control Group's £3.59. Conversely, the United States, within the Treatment Group, reports an average expenditure of £4.04, slightly less than the Control Group's £4.28.
 
 In Latin America, the data portrays Brazil in the Treatment Group with a conversion rate of 4.19%, outperforming the Control Group's 3.99%. Mexico in the Treatment Group exhibits a conversion rate of 4.81%, markedly exceeding the Control Group's 3.12%. Regarding the average amount spent, the data discloses that Brazil, within the Treatment Group, records an average spend of £3.06, slightly less than the Control Group's £3.21. Conversely, Mexico, within the Treatment Group, reports an average expenditure of £3.33, surpassing the Control Group's £2.81.
@@ -91,11 +101,15 @@ To lend a more comprehensive context to these observations, I have harnessed the
 
 1. Distribution of Average Amount Spent by Registered vs. Converted Users:
 Upon scrutinizing the visualization of the distribution of average spending by registered users versus converted users, certain intriguing patterns emerge. Notably, the chart below starkly illustrates that the average amount spent by converted users in the Treatment Group substantially exceeds that of their counterparts in the Control Group during two distinct periods: from January 30 to February 1, 2023, and around February 5, 2023.
+
+![](images/novelty_effects_1.png)
  
 Despite the fascinating variations evident in the chart, these trends are characterized by inconsistency and do not inherently constitute definitive proof of a novelty effect. It is imperative that this analysis embark on further investigation to unearth any latent factors contributing to the conspicuous increase in spending among converted users in the Treatment Group during the aforementioned time intervals.
 
 2.	Conversion Rates of All Users of Both the Control and Treatment Groups:
 To glean a clearer insight into the manifestations of novel user behaviour, an in-depth examination of conversion rates for users within the Control and Treatment groups is indispensable. A visual representation of conversion rates for all users in both groups reveals a consistent trend of elevated conversion rates, commencing from around January 28, 2023, and extending until February 6, 2023, as depicted in the chart below.
+
+![](images/novelty_effects_2.png)
  
 The relatively sustained nature of the line chart mentioned earlier indicates the presence of a novelty effect, manifesting itself in the form of heightened conversion rates among users in the Treatment Group during more than half of the time periods since the introduction of the banner.
 
