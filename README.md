@@ -2,7 +2,11 @@
 
 written by ****Cherry Augusta****
 
-## SUMMARY
+This project is based on a guided project from the [Masterschool's Data Analytics Program](https://www.masterschool.com/domains/data-analytics/). I have completed this project, adding my own insights, adjustments, and interpretations. This work reflects my personal contributions and includes extensions beyond the original guidance provided by the program.
+
+## PROJECT OVERVIEW AND SUMMARY
+
+This repository contains my analysis of an A/B testing experiment conducted for the Globox Food and Drink banner. The project showcases my understanding of A/B testing methodologies and statistical analysis.
 
 GloBox, a hypothetical, renowned purveyor of exclusive fashion and luxury decor products, recently conducted a rigorous A/B test on its mobile website to evaluate the impact of a food and drink banner. The results from the Treatment Group, which was exposed to the banner, showed a statistically significant increase in conversion rates. However, there was no significant difference in average spending between the Treatment and Control Groups. This analysis also provided insights into device, gender, and region-specific behaviors, with some indications of potential novelty effects. The results suggest that while the banner effectively increased user conversions, it did not influence the amount users spent. Thus, this statistical analysis prompts a cautious approach, leading to the recommendation not to launch the banner due to inconclusive evidence.
 
@@ -21,8 +25,8 @@ During this initial phase, I embarked on the exploration and extraction of essen
 
 Utilising SQL queries, I harnessed pertinent information, encompassing user interactions, conversion rates, and the average spending for both the Control and Treatment Groups.
 
-Step 2 – A/B Testing Statistics using Python:
-With the data successfully collected, a series of hypothesis tests were conducted to compare conversion rates and average spending between the two groups. The Null hypothesis (H0) posited no disparity in conversion rates and average spending, while the alternative hypothesis (H1) proposed the existence of significant differences. Employing both t-tests and z-tests at a 5% significance level, Python, was employed to ascertain the statistical significance of the results.
+Step 2 – A/B Testing Statistics using Python and Microsoft Excel Spreadsheets (Extra):
+With the data successfully collected, a series of hypothesis tests were conducted to compare conversion rates and average spending between the two groups. The Null hypothesis (H0) posited no disparity in conversion rates and average spending, while the alternative hypothesis (H1) proposed the existence of significant differences. Employing both t-tests and z-tests at a 5% significance level, Python, was employed to ascertain the statistical significance of the results. As an extra, Microsoft Excel was employed to showcase alternative techniques of statistical analysis using this tool. 
 
 ## RESULTS: ANALYSIS OF THE BANNER EXPERIMENT
 
@@ -151,6 +155,9 @@ The first step of the analysis was writing queries to extract data to use in the
 ### Python Codes
 In the following step, I used Python to perform the A/B test statistics. The Python codes is available in the following [link](https://github.com/cherryaugusta/GloBox_A-B_Testing_Analysis/blob/main/globox_statistical_analysis.ipynb)
 
+### Microsoft Excel Spreadsheets (Extra)
+As an extra for showcasing alternative techniques, the microsoft excel spreadsheets is avalable in the following [link](https://github.com/cherryaugusta/GloBox_A-B_Testing_Analysis/blob/main/statistical_testing_on_ms_excel_spreadsheets.xlsx).
+
 ### Tableau Links
 The next step was visualizing the data on Tableau. This is the link to the Tableau story where you can find all the insights and findings:
 1.	[Link to the Dashboard of Conversion Rate and Average Amount of Spent between the Test Groups](https://public.tableau.com/views/The_Conversion_Rate_and_Average_Spent_between_the_Test_Groups/Dashboard-GloBoxFoodandDrinkBannerExperiment?:language=en-GB&:display_count=n&:origin=viz_share_link)
@@ -163,3 +170,7 @@ The next step was visualizing the data on Tableau. This is the link to the Table
 
 ### Video Presentation Link 
 The final step was to present the A/B testing findings. My brief presentation is available in the following [link](https://www.loom.com/share/701ca122e39941d8a56cf5835d678c4f?sid=cc04d80c-1862-4b5c-9663-99bf11c9835b)
+
+## Disclaimer
+
+This project is shared for educational and portfolio purposes only. It is a demonstration of the skills and knowledge acquired during and after my studies at Masterschool.
